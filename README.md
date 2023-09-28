@@ -2,6 +2,5 @@
 # WebApps-Assignment-5 Starter Code
 Hosted at- <https://44-563-webapps-f23.github.io/44563-webapps-f23-assignment5-Ruchithamyakala/cities.html>
 Hosted at- <http://127.0.0.1:5501/cities.html>
-
-Hosted at- <https://44-563-webapps-f23.github.io/44563-webapps-f23-assignment5-Ruchithamyakala/advanced.html>
-Hosted at- <https://44-563-webapps-f23.github.io/44563-webapps-f23-assignment5-Ruchithamyakala/basic.html>
+Hosted at- <http://127.0.0.1:5501/advanced.html>
+Hosted at- <http://127.0.0.1:5501/basic.html>
