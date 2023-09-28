@@ -64,29 +64,28 @@
             color: rgb(29, 29, 195);
         }
     </style>
-    </head>
-    <body>
-        
-  <nav class="navbar navbar-expand-md navbar-light bg-light">
-    <a class="navbar-brand" href="cities.html">A Few Cities</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
-    data-bs-target="#plantNavbarInformation" aria-controls="plantNavbarInformation" 
-    aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggle-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="citiesNavbarInformation">
-        <ul class="navbar-nav mr-auto">
-         
-            <li class="nav-item">
-                <a class="nav-link" href="basic.html">basic </a>
-            </li>
-            <li class="nav-item ">
-                <a class="nav-link" href="advanced.html">advanced </a>
-            </li>
-        </ul>
-    </div>
-</nav>
-<br>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a class="navbar-brand" href="cities.html">A Few Cities</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#citiesNavbarInformation"
+            aria-controls="citiesNavbarInformation" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggle-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="citiesNavbarInformation">
+            <ul class="navbar-nav mr-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="basic.html">basic </a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="advanced.html">advanced </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>
 
     <h1>Visit cities with RuchithaMyakala</h1>
     <div class="container">
@@ -206,17 +205,36 @@
     </div>
     <br>
     <div class="container">
-      <div class="dropdown">
-      <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" type="button">Button</button>
-      <div class="dropdown-menu">
-      <a class="dropdown-item" href="basic.html">Basic</a>
-      <a class="dropdown-item" href="advanced.html">Advanced</a>
-      </div>
-      </div>
-      </div>
-      <br>
-      <br>
+        <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" type="button">Button</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="basic.html">Basic</a>
+                <a class="dropdown-item" href="advanced.html">Advanced</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <form action="">
+            <div class="form-group">
+                <label for="citiesEmail" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="citiesEmail" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="form-group">
+                <label for="citiesInput" class="form-label">City </label>
+                <input type="text" class="form-control" id="citiesInput" placeholder="Enter your city">
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="citiesCheck">
+                <label class="form-check-label" for="citiessCheck">Sign up for newsletter?</label>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+    </div>
+    <br>
 
-    </body>
+</body>
 
 </html>
